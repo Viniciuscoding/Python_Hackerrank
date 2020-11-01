@@ -1,4 +1,5 @@
-/* Find A Sub-Word
+"""
+Find A Sub-Word
 
 We define a word character to be any of the following:
   An English alphabetic letter (i.e., a-z and A-Z).
@@ -48,7 +49,7 @@ we do not count it as a sub-word occurrence.
 While s is a substring of the word "is" in the sentence, we do not count it as a match because it is preceded and succeeded by non-word characters 
 (i.e., blank spaces) in the sentence. This means it doesn't count as a sub-word occurrence.
 Next, we sum the occurrences of s as a sub-word of all our words as 1 + 1 + 1 + 0 + 0 = 3. Thus, we print 3 on a new line.
-*/
+"""
 
 # This exercise is very poorly worded and not very usefull. Creating a solution for a whole text body would be more important to day to day tasks.
 
